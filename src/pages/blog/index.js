@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import { MDXRenderer } from "gatsby-plugin-mdx";
-import Layout from "../components/Layout";
+import Layout from "../../components/Layout";
 
 // 포맷팅하여 최신순으로 정렬
 function BlogPage() {
